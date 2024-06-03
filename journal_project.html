@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sama's Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="p5.min.js"></script>
+    <script src="journal_project.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.min.image.js"></script>
+    <link rel="stylesheet" href="journal_styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="canvasContainer"></div>
+      <div id="controls">
+		<div id="averages"></div>
+        <div id="dateRangePicker">
+          <label for="startDate" style="font-size:12pt;">Start Date:</label>
+          <input type="date" id="startDate" />
+          <br /> <br>
+          <label for="endDate" style="font-size:12pt;">End Date:</label>
+          <input type="date" id="endDate" /> 
+		  <br><br>
+		  <hr>
+        </div> 
+		<div style="font-size: 14pt; padding-top:none;"> Key </div>
+		<br>
+		<div id="circleKey">
+			<span class="dot"></span> = 8 oz
+
+		</div>
+		<div id="gradientKey">
+			Food Average Variability <br> <br>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
